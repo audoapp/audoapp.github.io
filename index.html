@@ -1,0 +1,209 @@
+<html>
+<head>
+  <title>Audo - Music Composition</title>
+  <style>
+    .flexhori {
+      display: flex;
+      height: 100%;
+      box-shadow: inset 0px 2px 5px rgba(0,0,0,0.2);
+      min-height: 400px;
+    }
+    .small {
+      height: 250px;
+      background: #e4e4e4;
+      color: #333;
+      text-align: center;
+      min-height: auto;
+    }
+    .footer {
+      height: 80px;
+      text-align: center;
+      min-height: auto;
+    }
+    .flexvert {
+      display: flex;
+      flex-direction: column;
+    }
+    .space {
+      flex-grow: 1;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: "futura","Segoe UI",sans-serif;
+      background: #F59200;
+      color: white;
+      height: 100%;
+      margin: 0;
+      overflow: hidden;
+    }
+    html {
+      height: 100%;
+    }
+    h1 {
+      margin-top: 93px;
+      margin-top: 62px;
+      line-height: 0;
+      font-weight: 200;
+      font-size: 50.25px;
+      padding-bottom: 8.65px;
+    }
+    .small h1 {
+      font-size: 32px;
+      margin-top: 30px;
+    }
+    p {
+      font-size: 20.1px;
+      line-height: 0;
+      padding-top: 9.2px;
+    }
+    .footer p {
+      padding-top: 4px;
+      font-size: 18px;
+    }
+    .transparent {
+      opacity: 0.5;
+    }
+    img[src='screenshot.png'] {
+      box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.45);
+      border-radius: 17px;
+    }
+    button {
+      font-family: "futura","Segoe UI",sans-serif;
+      margin-top: 16px;
+      width: 145px;
+      background: white;
+      border-radius: 4px;
+      color: #F59200;
+      text-align: center;
+      padding-top: 27px;
+      padding-bottom: 27px;
+      font-size: 23.35px;
+      line-height: 0;
+      border: none;
+      outline: none;
+      transition: box-shadow 0.2s ease, background 0.2s ease;
+    }
+    button:hover {
+      box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+    }
+    button:active {
+      background: rgba(255,255,255,0.8);
+    }
+    .eff {
+      background: #15a5cb;
+    }
+    .design {
+      background: #e64731
+    }
+    .performance {
+      background: #222222;
+    }
+    .normal {
+      box-shadow: none;
+    }
+    .fixed {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      overflow: auto;
+    }
+  </style>
+</head>
+<!--f6a124
+15a5cb
+e64731-->
+<body>
+  <div class="fixed">
+    <div class="flexhori normal">
+      <div class="space"></div>
+      <div class="flexvert">
+        <div class="space"></div>
+        <div>
+          <img src="KeyRecPlay.png" width="393" height="57"/>
+          <h1>audo</h1>
+          <p>An iOS music program designed for speed.</p>
+          <p>Only $1.99. <span class="transparent">Free trial.</span></p>
+          <button>Download</button>
+        </div>
+        <div class="space"></div>
+      </div>
+      <div class="space"></div>
+    </div>
+
+    <div class="flexhori eff">
+      <div class="space"></div>
+      <div class="flexvert">
+        <div class="space"></div>
+        <div>
+          <img src="screenshot.png" width="393" height="189"/>
+          <h1>efficiency</h1>
+          <p>audo uses vertical tracking, which lets you</p>
+          <p>get your ideas out quickly.</p>
+        </div>
+        <div class="space"></div>
+      </div>
+      <div class="space"></div>
+    </div>
+
+    <div class="flexhori design">
+      <div class="space"></div>
+      <div class="flexvert">
+        <div class="space"></div>
+        <div>
+          <img src="screenshot.png" width="393" height="189"/>
+          <h1>design</h1>
+          <p>A clean and minimalist design makes audo</p>
+          <p>have only one focus: your music.</p>
+        </div>
+        <div class="space"></div>
+      </div>
+      <div class="space"></div>
+    </div>
+
+    <div class="flexhori performance">
+      <div class="space"></div>
+      <div class="flexvert">
+        <div class="space"></div>
+        <div>
+          <img src="screenshot.png" width="393" height="189"/>
+          <h1>performance</h1>
+          <p>audo runs at 60FPS even on older devices,</p>
+          <p>including iPad 2 and iPhone 4s. <span class="transparent">iOS 8+</span></p>
+        </div>
+        <div class="space"></div>
+      </div>
+      <div class="space"></div>
+    </div>
+
+    <div class="flexhori small">
+      <div class="space"></div>
+      <div class="flexvert">
+        <div class="space"></div>
+        <div>
+          <h1>What are you waiting for?</h1>
+          <button>Try it out</button>
+        </div>
+        <div class="space"></div>
+      </div>
+      <div class="space"></div>
+    </div>
+
+    <div class="flexhori footer">
+      <div class="space"></div>
+      <div class="flexvert">
+        <div class="space"></div>
+        <div>
+          <p>&copy;2017 Audo Inc.</p>
+        </div>
+        <div class="space"></div>
+      </div>
+      <div class="space"></div>
+    </div>
+  </div>
+</body>
+</html>
